@@ -45,7 +45,7 @@ $(document).ready(function () {
     emailjs.init("EbDdB6-YOlnRhY5lO");
 
     emailjs
-      .sendForm("service_p21hoqq", "template_contact", "#contact-form")
+      .sendForm("service_p21hoqq", "template_6hcnp6f", "#contact-form")
       .then(
         function (response) {
           console.log("SUCCESS!", response.status, response.text);
@@ -64,7 +64,7 @@ $(document).ready(function () {
 
 document.addEventListener("visibilitychange", function () {
   if (document.visibilityState === "visible") {
-    document.title = "Portfolio | Jigar Sable";
+    document.title = "Portfolio | Anshul Sahu";
     $("#favicon").attr("href", "assets/images/favicon.png");
   } else {
     document.title = "Come Back To Portfolio";
@@ -106,7 +106,7 @@ function showSkills(skills) {
     skillHTML += `
         <div class="bar">
               <div class="info">
-                <img src=${skill.icon} alt="skill" />
+                 <img src="${skill.icon}" alt="${skill.name}" style="width: 48px; height: 48px; margin-right: 10px;" />
                 <span>${skill.name}</span>
               </div>
             </div>`;
@@ -131,7 +131,7 @@ function showProjects(projects) {
         <div class="desc">
           <p>${project.desc}</p>
           <div class="btns">
-            <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+            <a href="projects/${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
             <a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
           </div>
         </div>
@@ -208,7 +208,7 @@ var Tawk_API = Tawk_API || {},
   var s1 = document.createElement("script"),
     s0 = document.getElementsByTagName("script")[0];
   s1.async = true;
-  s1.src = "https://embed.tawk.to/60df10bf7f4b000ac03ab6a8/1f9jlirg6";
+  s1.src = "https://embed.tawk.to/672c3baa4304e3196ade647b/1ic2ci4vv";
   s1.charset = "UTF-8";
   s1.setAttribute("crossorigin", "*");
   s0.parentNode.insertBefore(s1, s0);

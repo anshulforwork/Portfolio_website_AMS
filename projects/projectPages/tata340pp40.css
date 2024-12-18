@@ -1,0 +1,110 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Header Styling */
+.project-header {
+    text-align: center;
+    background-color: #00529B;
+    color: white;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.project-header h1 {
+    font-size: 2.5rem;
+}
+
+.project-header .project-subtitle {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+/* Section Styling */
+.project-overview,
+.project-goals,
+.technologies-used,
+.project-process,
+.project-results,
+.project-conclusion {
+    background-color: #ffffff;
+    margin: 1.5rem auto;
+    padding: 1.5rem;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Titles */
+section h2 {
+    color: #00529B;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+/* Technologies Grid */
+.tech-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.tech-item {
+    background-color: #E3F2FD;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.tech-item h3 {
+    color: #00529B;
+    margin-bottom: 0.5rem;
+}
+
+/* Steps */
+.project-process .step {
+    background-color: #f2f2f2;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-left: 4px solid #00529B;
+}
+
+/* Back Button */
+.back-button {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.back-button .btn {
+    background-color: #00529B;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.back-button .btn:hover {
+    background-color: #003d73;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .tech-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .project-header h1 {
+        font-size: 2rem;
+    }
+}

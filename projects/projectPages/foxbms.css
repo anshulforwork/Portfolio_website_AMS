@@ -1,0 +1,108 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f9;
+  padding: 20px;
+}
+
+/* Header Styling */
+header {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+/* Section Styling */
+section {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  font-size: 1.8em;
+  color: #333;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #4caf50;
+  padding-bottom: 5px;
+}
+
+section p,
+section ul {
+  margin: 15px 0;
+}
+
+/* List Styling */
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+ul li {
+  margin: 5px 0;
+}
+
+/* Code Block Styling */
+pre,
+code {
+  display: block;
+  background-color: #e8e8e8;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: Consolas, monospace;
+  overflow-x: auto;
+  color: #333;
+}
+
+/* Footer Styling */
+footer {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9em;
+}
+/* Back Button Styling */
+.back-button {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #45a049;
+}
+
+#back-button {
+    text-align: center;
+}

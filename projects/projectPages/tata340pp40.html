@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TATA 340 PP 40 Project</title>
+    <link rel="stylesheet" href="tata340pp40.css">
+</head>
+
+<body>
+
+    <!-- Project Header -->
+    <header class="project-header">
+        <h1>TATA 340 PP 40</h1>
+        <p class="project-subtitle">High-Voltage Energy Storage System with CAN-based Data Output</p>
+    </header>
+
+    <!-- Project Overview -->
+    <section class="project-overview">
+        <img src="/assets/images/projects/tata340pp40.png" alt="TATA 340 PP 40" class="project-image">
+        <p>In the TATA 340 PP 40 project, we designed an advanced energy storage system, charging up to 340V and capable
+            of delivering 40kJ of energy. The system features ultra capacitors (UCaps) with real-time voltage and
+            current monitoring using Electrohms VH1K0T01 voltage sensors and HE100T01 Hall Effect-based current sensors.
+            The CAN protocol was used to transmit key data, enabling external systems to monitor and interact with the
+            storage system in real time.</p>
+    </section>
+
+    <!-- Project Goals -->
+    <section class="project-goals">
+        <h2>Project Goals</h2>
+        <ul>
+            <li>Develop a high-voltage, high-capacity energy storage system with accurate monitoring.</li>
+            <li>Implement CAN protocol for reliable data transmission to external systems.</li>
+            <li>Ensure stable communication with external control systems through standardized data format.</li>
+        </ul>
+    </section>
+
+    <!-- Technologies Used -->
+    <section class="technologies-used">
+        <h2>Technologies Used</h2>
+        <div class="tech-grid">
+            <div class="tech-item">
+                <h3>UCaps</h3>
+                <p>3V-rated Ultra Capacitors stacked to achieve high voltage, with a total capacity of 340V and 40kJ.
+                </p>
+            </div>
+            <div class="tech-item">
+                <h3>CAN Protocol</h3>
+                <p>Used to transmit system data to the outside world, allowing real-time external monitoring and
+                    interaction.</p>
+            </div>
+            <div class="tech-item">
+                <h3>VH1K0T01 Voltage Sensor</h3>
+                <p>Electrohms high-precision voltage sensor, ensuring accurate voltage readings in real time.</p>
+            </div>
+            <div class="tech-item">
+                <h3>HE100T01 Current Sensor</h3>
+                <p>Hall Effect-based sensor for precise current measurement, integral for system monitoring.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Process -->
+    <section class="project-process">
+        <h2>Project Process</h2>
+        <div class="step">
+            <h3>System Design and Component Selection</h3>
+            <p>The design involved stacking UCaps to reach the required voltage and energy capacity. Each component,
+                including voltage and current sensors, was selected for reliability and precision, essential for
+                high-voltage applications.</p>
+        </div>
+        <div class="step">
+            <h3>Master and Slave Board Development</h3>
+            <p>Custom boards were developed to monitor and control the system. The master board collects sensor data and
+                transmits it externally via CAN protocol, enabling real-time monitoring and control from outside
+                systems.</p>
+        </div>
+        <div class="step">
+            <h3>CAN Protocol Integration and Testing</h3>
+            <p>CAN protocol was implemented on the master board to facilitate reliable data output to external systems.
+                Testing ensured accurate data transmission for real-time monitoring and control.</p>
+        </div>
+    </section>
+
+    <!-- Project Results -->
+    <section class="project-results">
+        <h2>Project Results</h2>
+        <p>Successfully implemented a high-capacity energy storage system with a robust CAN-based data transmission
+            setup. This solution enables real-time external monitoring, providing stable and reliable data output.</p>
+    </section>
+
+    <!-- Project Conclusion -->
+    <section class="project-conclusion">
+        <h2>Conclusion</h2>
+        <p>This project demonstrates the effectiveness of using UCaps for high-voltage energy storage with accurate
+            monitoring and CAN protocol for seamless data transfer to external systems.</p>
+    </section>
+
+    <!-- Back Button -->
+    <div class="back-button">
+        <a href="../index.html" class="btn">Back to Projects</a>
+    </div>
+
+</body>
+
+</html>

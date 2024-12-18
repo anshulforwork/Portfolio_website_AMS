@@ -9,6 +9,7 @@
       "code": "https://github.com/jigar-sable/notystack-android"
     }
   },
+
   {
     "name": "SPPU Engg Prep",
     "desc": "All in one SPPU Engineering resources. Built using Java, XML and Firebase.",
@@ -70,30 +71,40 @@
     }
   },
   {
-    "name": "React-Projects",
-    "desc": "Full-Stack project dashboard which is collection of projects built on the React library.",
+    "name": "Arduino Clone",
+    "desc": "This project involves designing a custom PCB that replicates the Arduino Uno, enhancing our PCB skills and creating a functional, affordable alternative to the original board.",
     "image": "reactprojects",
-    "category": "mern",
+    "category": "industrygrade",
     "links": {
-      "view": "https://reactjsprojects.herokuapp.com/",
+      "view": "projectPages/arduinoclone.html",
       "code": "https://github.com/jigar-sable/React-Projects"
     }
   },
   {
-    "name": "Flipkart PHP",
-    "desc": "Full-Stack Flipkart Clone Using LAMP Stack. With all major features and OTP authentication and Cashfree payment gateway.",
+    "name": "NPOL FOXBMS",
+    "desc": "Battery Management System with FreeRTOS, CAN, MQTT, and Node-RED for real-time control and monitoring. Debugged using Segger J-Link and Ozone.",
+    "image": "foxbms",
+    "category": "industrygrade",
+    "links": {
+      "view": "projectPages/foxbms.html",
+      "code": "https://github.com/jigar-sable/notystack-android"
+    }
+  },
+  {
+    "name": "GCRE UK",
+    "desc": ".",
     "image": "flipkartphp",
     "category": "lamp",
     "links": {
-      "view": "https://github.com/jigar-sable/Flipkart-Clone-PHP",
+      "view": "projectPages/gcreuk.html",
       "code": "https://github.com/jigar-sable/Flipkart-Clone-PHP"
     }
   },
   {
-    "name": "JavaScript Projects Website",
+    "name": "TATA 340-PP-40",
     "desc": "This website is specially build to showcase all major javaScript projects. All my javaScript based projects are in it.",
     "image": "jspro",
-    "category": "basicweb",
+    "category": "industrygrade",
     "links": {
       "view": "https://jigar-sable.github.io/JavaScript-Projects",
       "code": "https://github.com/jigar-sable/JavaScript-Projects"

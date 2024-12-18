@@ -1,201 +1,204 @@
 [
-    {
-        "name": "STM32",
-        "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-stm-electronics-and-software-company-that-designs-microcontrollers-and-analog-chips-color-tal-revivo.png"
-    },
-    {
-        "name": "ESP32",
-        "icon": "https://img.icons8.com/color/48/000000/wifi.png" 
-    },
-    {
-        "name": "Arduino",
-        "icon": "https://img.icons8.com/color/48/000000/arduino.png"
-    },
-    {
-        "name": "Altium Designer",
-        "icon": "https://img.icons8.com/color/48/000000/altium-designer.png"
-    },
-    {
-        "name": "KiCad",
-        "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-kicad-an-open-source-software-suite-for-electronic-design-automation-logo-color-tal-revivo.png"
-    },
-    {
-        "name": "Proteus",
-        "icon": "https://img.icons8.com/color/48/000000/proteus.png"
-    },
-    {
-        "name": "CAN Protocol",
-        "icon": "https://img.icons8.com/ios/48/000000/connection--v1.png" 
-    },
-    {
-        "name": "RTOS",
-        "icon": "https://img.icons8.com/external-justicon-flat-justicon/48/000000/external-circuit-electronics-justicon-flat-justicon-1.png"
-    },
-    {
-        "name": "Mosquitto MQTT",
-        "icon": "https://img.icons8.com/ios-filled/48/000000/bee.png"
-    },
-    {
-        "name": "Node-RED",
-        "icon": "https://img.icons8.com/color/48/000000/node-red.png"
-    },
-    {
-        "name": "FreeRTOS",
-        "icon": "https://img.icons8.com/color/48/000000/circuit.png"
-    },
-    {
-        "name": "MATLAB",
-        "icon": "https://img.icons8.com/color/48/000000/matlab.png"
-    },
-    {
-        "name": "LTspice",
-        "icon": "https://img.icons8.com/ios-filled/48/000000/electronics.png"
-    },
-    {
-        "name": "LabVIEW",
-        "icon": "https://img.icons8.com/fluency/48/000000/labview.png"
-    },
-    {
-        "name": "Multisim",
-        "icon": "https://img.icons8.com/ios-filled/48/000000/oscilloscope.png"
-    },
-    {
-        "name": "I2C Protocol",
-        "icon": "https://img.icons8.com/ios/48/000000/data-in-both-directions.png"
-    },
-    {
-        "name": "SPI Protocol",
-        "icon": "https://img.icons8.com/external-flatart-icons-outline-flatarticons/48/000000/external-data-technology-flatart-icons-outline-flatarticons.png"
-    },
-    {
-        "name": "Python",
-        "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
-    },
-    {
-        "name": "C++",
-        "icon": "https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
-    },
-    {
-        "name": "Git",
-        "icon": "https://img.icons8.com/color/48/000000/git.png"
-    },    {
-        "name": "ReactJS",
-        "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png"
-    },
-    {
-        "name": "ExpressJS",
-        "icon": "https://img.icons8.com/fluency/48/000000/node-js.png"
-    },
-    {
-        "name": "NodeJS",
-        "icon": "https://img.icons8.com/color/48/000000/nodejs.png"
-    },
-    {
-        "name": "Redux",
-        "icon": "https://img.icons8.com/color/48/000000/redux.png"
-    },
-    {
-        "name": "Firebase",
-        "icon": "https://img.icons8.com/color/48/000000/firebase.png"
-    },
-    {
-        "name": "Android",
-        "icon": "https://img.icons8.com/fluency/48/000000/android-os.png"
-    },
-    {
-        "name": "MaterialUI",
-        "icon": "https://img.icons8.com/color/48/000000/material-ui.png"
-    },
-    {
-        "name": "ChakraUI",
-        "icon": "https://img.icons8.com/color/48/000000/chakra-ui.png"
-    },
-    {
-        "name": "TailwindCSS",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/48px-Tailwind_CSS_Logo.png"
-    },
-    {
-        "name": "Bootstrap",
-        "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
-    },
-    {
-        "name": "Sass",
-        "icon": "https://img.icons8.com/color/48/000000/sass.png"
-    },
-    {
-        "name": "HTML5",
-        "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
-    },
-    {
-        "name": "CSS3",
-        "icon": "https://img.icons8.com/color/48/000000/css3.png"
-    },
-    {
-        "name": "JavaScript",
-        "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
-    },
-    {
-        "name": "Java",
-        "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
-    },
-    {
-        "name": "Kotlin",
-        "icon": "https://img.icons8.com/color/48/000000/kotlin.png"
-    },
-    {
-        "name": "PHP",
-        "icon": "https://img.icons8.com/offices/48/000000/php-logo.png"
-    },
-    {
-        "name": "Python",
-        "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
-    },
-    {
-        "name": "C++",
-        "icon": "https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
-    },
-    {
-        "name": "MongoDB",
-        "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
-    },
-    {
-        "name": "MySQL",
-        "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"
-    },
-    {
-        "name": "PostgreSQL",
-        "icon": "https://img.icons8.com/color/48/000000/postgreesql.png"
-    },
-    {
-        "name": "AWS",
-        "icon": "https://img.icons8.com/color/48/000000/amazon-web-services.png"
-    },
-    {
-        "name": "Heroku",
-        "icon": "https://img.icons8.com/color/48/000000/heroku.png"
-    },
-    {
-        "name": "Netlify",
-        "icon": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png"
-    },
-    {
-        "name": "DigitalOcean",
-        "icon": "https://img.icons8.com/ios-filled/48/0080FF/digitalocean.png"
-    },
-    {
-        "name": "jQuery",
-        "icon": "https://img.icons8.com/ios-filled/48/1169ae/jquery.png"
-    },
-    {
-        "name": "Git VCS",
-        "icon": "https://img.icons8.com/color/48/000000/git.png"
-    },
-    {
-        "name": "GitHub",
-        "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
-    },
-    {
-        "name": "WordPress",
-        "icon": "https://img.icons8.com/color/48/000000/wordpress.png"
-    } 
+  {
+    "name": "Embedded C",
+    "icon": "assets/images/logo/embeddedc.png"
+  },
+  {
+    "name": "C++",
+    "icon": "https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
+  },
+  {
+    "name": "Python",
+    "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
+  },
+
+  {
+    "name": "Java",
+    "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
+  },
+  {
+    "name": "Git",
+    "icon": "https://img.icons8.com/color/48/000000/git.png"
+  },
+  {
+    "name": "GitHub",
+    "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
+  },
+  {
+    "name": "Arduino",
+    "icon": "https://img.icons8.com/color/48/000000/arduino.png"
+  },
+  {
+    "name": "ESP32",
+    "icon": "assets/images/logo/ESP32.png"
+  },
+
+  {
+    "name": "STM32",
+    "icon": "assets/images/logo/STM32.png"
+  },
+
+  {
+    "name": "Raspberry",
+    "icon": "assets/images/logo/raspberry-pi.png"
+  },
+  {
+    "name": "TI",
+    "icon": "assets/images/logo/ti.png"
+  },
+  {
+    "name": "Beagle bone",
+    "icon": "assets/images/logo/BeagleBoardCompatible.png"
+  },
+  {
+    "name": "Platform IO",
+    "icon": "assets/images/logo/platformio.png"
+  },
+  {
+    "name": "ESP IDE",
+    "icon": "assets/images/logo/espressifide.png"
+  },
+  {
+    "name": "STM32 cube IDE",
+    "icon": "assets/images/logo/stm32cube.png"
+  },
+  {
+    "name": "Thonny IDE",
+    "icon": "assets/images/logo/thonny.png"
+  },
+  {
+    "name": "CCS IDE",
+    "icon": "assets/images/logo/ccs1.png"
+  },
+  {
+    "name": "VS code",
+    "icon": "assets/images/logo/vscode.png"
+  },
+  {
+    "name": "UART Protocol",
+    "icon": "assets/images/logo/logo_uart.png"
+  },
+  {
+    "name": "I2C Protocol",
+    "icon": "assets/images/logo/I2C-Logo.png"
+  },
+  {
+    "name": "SPI Protocol",
+    "icon": "assets/images/logo/spi.png"
+  },
+
+  {
+    "name": "BLuetooth",
+    "icon": "assets/images/logo/bluetooth.png"
+  },
+
+  {
+    "name": "wifi",
+    "icon": "assets/images/logo/wifi.png"
+  },
+  {
+    "name": "CAN Protocol",
+    "icon": "assets/images/logo/canbus.png"
+  },
+
+  {
+    "name": "Altium Designer",
+    "icon": "assets/images/logo/altium-designer.png"
+  },
+  {
+    "name": "KiCad",
+    "icon": "assets/images/logo/KiCad-1.png"
+  },
+  {
+    "name": "Proteus",
+    "icon": "assets/images/logo/Proteus.png"
+  },
+  {
+    "name": "LT-spice",
+    "icon": "assets/images/logo/lt-spice-logo.png"
+  },
+  {
+    "name": "MATLAB",
+    "icon": "assets/images/logo/MATLAB.png"
+  },
+  {
+    "name": "Simulink ",
+    "icon": "assets/images/logo/simulink.png"
+  },
+  {
+    "name": "FREE RTOS",
+    "icon": "assets/images/logo/rtos3.jpeg"
+  },
+  {
+    "name": "UML STATE MACHINE",
+    "icon": "assets/images/logo/uml_astah.png"
+  },
+  {
+    "name": "Tera Term",
+    "icon": "assets/images/logo/tera-term.png"
+  },
+  {
+    "name": "Wire Shark",
+    "icon": "assets/images/logo/wireshark.png"
+  },
+  {
+    "name": "Putty",
+    "icon": "assets/images/logo/putty.png"
+  },
+  {
+    "name": "PCAN Explorer ",
+    "icon": "assets/images/logo/pcan2.png"
+  },
+  {
+    "name": "MQTT Protocol",
+    "icon": "assets/images/logo/mqtt.png"
+  },
+  {
+    "name": "Mosquitto MQTT",
+    "icon": "assets/images/logo/mosquitto.png"
+  },
+  {
+    "name": "MQTT Explorer",
+    "icon": "assets/images/logo/mqtt_explorer.png"
+  },
+  {
+    "name": "Node-RED",
+    "icon": "assets/images/logo/nodered.png"
+  },
+
+  {
+    "name": "HTML5",
+    "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
+  },
+  {
+    "name": "CSS3",
+    "icon": "https://img.icons8.com/color/48/000000/css3.png"
+  },
+  {
+    "name": "JavaScript",
+    "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
+  },
+  {
+    "name": "Trello Project Management",
+    "icon": "assets/images/logo/Trello2.jpg"
+  },
+  {
+    "name": "JIRA Project Management",
+    "icon": "assets/images/logo/jira.png"
+  }
+  ,
+  {
+    "name": "Confluence Documentation Tool",
+    "icon": "assets/images/logo/Confluence.png"
+  }
+  ,
+  {
+    "name": "AI prompting (chatGPT)",
+    "icon": "assets/images/logo/chatGPT_prompting.png"
+  }
+  ,
+  {
+    "name": "Code Documentation Doxygen",
+    "icon": "assets/images/logo/doxygen.png"
+  }
 ]

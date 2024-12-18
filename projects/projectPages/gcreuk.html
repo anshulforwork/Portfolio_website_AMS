@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GCRE UK - Energy Storage System Project</title>
+    <link rel="stylesheet" href="gcreuk.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="project-header">
+        <h1>GCRE UK - Energy Storage System Project</h1>
+        <p class="project-subtitle">A comprehensive energy storage solution utilizing advanced UCAP modules, CAN communication, and custom data decoding.</p>
+    </header>
+
+    <!-- Project Overview Section -->
+    <section class="project-overview">
+        <img src="/assets/images/gcre-uk.png" alt="GCRE UK Project" class="project-image">
+        <p>
+            This project aimed to supply GCRE UK with a reliable, high-performance energy storage system powered by Skeleton UCAP modules. We configured these modules using the CAN protocol and built a data decoder with Arduino to monitor and analyze CAN data in real time. This solution provides scalable energy storage, efficient configuration, and precise data interpretation.
+        </p>
+    </section>
+
+    <!-- Project Goals Section -->
+    <section class="project-goals">
+        <h2>Project Goals</h2>
+        <ul>
+            <li>Design a scalable and efficient energy storage solution using UCAP modules.</li>
+            <li>Implement CAN communication for seamless configuration and data transmission.</li>
+            <li>Develop a custom data decoder to interpret and monitor CAN data.</li>
+            <li>Ensure reliability and adaptability for integration with future projects.</li>
+        </ul>
+    </section>
+
+    <!-- Technologies Used Section -->
+    <section class="technologies-used">
+        <h2>Technologies Used</h2>
+        <div class="tech-grid">
+            <div class="tech-item">
+                <h3>CAN Protocol</h3>
+                <p>Utilized for configuring UCAP modules and ensuring robust communication.</p>
+            </div>
+            <div class="tech-item">
+                <h3>PCAN Adapter & PCAN Explorer</h3>
+                <p>PCAN tools enabled efficient communication and configuration for the UCAP modules.</p>
+            </div>
+            <div class="tech-item">
+                <h3>Arduino Nano & MCP2515 Module</h3>
+                <p>Used to build the Node Receiver for decoding CAN data per GCRE UK's specific data format.</p>
+            </div>
+            <div class="tech-item">
+                <h3>Node.js & JavaScript</h3>
+                <p>Developed custom decoding scripts to ensure accurate data interpretation and integration.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Process Section -->
+    <section class="project-process">
+        <h2>Project Process</h2>
+        <div class="step">
+            <h3>Step 1: UCAP Module Selection and Testing</h3>
+            <p>We selected Skeleton UCAP modules for their energy density and reliability. Initial tests were conducted to verify compatibility with the CAN protocol and assess performance under load conditions.</p>
+        </div>
+        <div class="step">
+            <h3>Step 2: CAN Communication Setup</h3>
+            <p>Using a PCAN adapter and PCAN Explorer, we configured the UCAP modules via CAN, allowing for smooth data transmission and remote configuration capabilities.</p>
+        </div>
+        <div class="step">
+            <h3>Step 3: Node Receiver Development</h3>
+            <p>We designed a custom Node Receiver using an Arduino Nano with the MCP2515 CAN module. This receiver was programmed to decode incoming CAN data based on GCRE UK’s specifications, using a data format that ensured all necessary parameters were accurately captured.</p>
+        </div>
+        <div class="step">
+            <h3>Step 4: Testing & Validation</h3>
+            <p>The Node Receiver was rigorously tested to verify data accuracy and ensure real-time decoding. The final setup allowed for robust monitoring and control of the UCAP modules in real-world scenarios.</p>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section class="project-results">
+        <h2>Results</h2>
+        <p>
+            The GCRE UK project delivered a fully functional, reliable energy storage system capable of efficient configuration and data monitoring. By utilizing the CAN protocol, PCAN tools, and Arduino-based decoding, we met all project goals. The setup now allows GCRE UK to scale their energy storage capabilities with confidence.
+        </p>
+    </section>
+
+    <!-- Conclusion Section -->
+    <section class="project-conclusion">
+        <h2>Conclusion</h2>
+        <p>
+            This project showcases the potential of integrating advanced CAN communication with robust energy storage solutions. It provided a valuable learning experience in using tools like the PCAN adapter, CAN protocols, and Arduino-based decoding systems.
+        </p>
+    </section>
+
+    <!-- Back Button Section -->
+    <div class="back-button">
+        <a href="../index.html" class="btn">← Back to Projects</a>
+    </div>
+</body>
+</html>

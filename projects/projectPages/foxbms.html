@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NPOL FOXBMS Project</title>
+    <link rel="stylesheet" href="foxbms.css">
+</head>
+
+<body>
+    <header>
+        <h1>NPOL FOXBMS Project</h1>
+    </header>
+
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>
+            The NPOL FOXBMS Project is a research and development initiative focusing on Battery Management Systems
+            (BMS)
+            for efficient and safe energy storage solutions. This project leverages the FOXBMS (Flexible Open-source
+            Battery Management System) platform,
+            designed to support advanced monitoring, control, and safety features for high-performance battery packs.
+        </p>
+    </section>
+
+    <section id="objectives">
+        <h2>Project Objectives</h2>
+        <ul>
+            <li>Develop a flexible, open-source Battery Management System (BMS) for efficient battery operation.</li>
+            <li>Implement real-time monitoring and control of battery cells, including voltage, temperature, and
+                current.</li>
+            <li>Ensure safe and reliable energy storage, especially in high-demand applications.</li>
+            <li>Support diagnostics and data collection to optimize battery life and performance.</li>
+        </ul>
+    </section>
+
+    <section id="features">
+        <h2>Key Features</h2>
+        <ul>
+            <li><strong>Modular Design:</strong> Enables easy customization for various battery sizes and chemistries.
+            </li>
+            <li><strong>Cell Monitoring:</strong> Real-time monitoring of cell voltages, currents, and temperatures.
+            </li>
+            <li><strong>Balancing:</strong> Implements cell balancing algorithms to ensure uniform cell charging.</li>
+            <li><strong>Data Logging:</strong> Continuous data logging for performance analysis and diagnostics.</li>
+            <li><strong>Communication:</strong> Interfaces with systems via CAN or UART for data exchange and control.
+            </li>
+        </ul>
+    </section>
+
+    <section id="technical-details">
+        <h2>Technical Details</h2>
+        <p>The NPOL FOXBMS Project is based on an open-source, modular architecture that integrates both hardware and
+            software components for efficient BMS operation.</p>
+        <h3>Hardware Overview</h3>
+        <p>The hardware design includes a central processing unit, voltage and temperature sensors, and interfaces for
+            external communication.</p>
+        <h3>Software Overview</h3>
+        <ul>
+            <li>Data acquisition from cell voltage and temperature sensors</li>
+            <li>Data processing and real-time monitoring</li>
+            <li>Battery diagnostics, balancing, and protection</li>
+            <li>Communication protocol (e.g., CAN or UART) integration</li>
+        </ul>
+        <pre><code>
+// Example of data acquisition code snippet
+int readVoltage(int cell) {
+    // Code to read voltage from a specific cell
+    return cell_voltage[cell];
+}
+        </code></pre>
+    </section>
+    <section id="back-button">
+        <a href="../index.html" class="back-button">Back to Portfolio</a>
+    </section>
+    <footer>
+        <p>&copy; 2024 AMS anshul sahu. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
